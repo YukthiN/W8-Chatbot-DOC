@@ -9,7 +9,7 @@ PDF
  ↓  MiniLM (BERT)    — embed chunks into 384-dim vectors
  ↓  FAISS            — store & search vectors by cosine similarity
  ↓  Mistral-7B       — generate answer from retrieved context
-Answer ✅
+
 ```
 
 ---
@@ -36,7 +36,7 @@ README.md                — this file
 
 ---
 
-## 🚀 Quickstart
+
 
 ### 1. Open in Google Colab
 Upload `rag_simple_fixed.ipynb` to [colab.research.google.com](https://colab.research.google.com)
@@ -48,7 +48,7 @@ Runtime → Change runtime type → T4 GPU
 
 ### 3. Upload your PDF
 ```
-Click 📁 folder icon (left sidebar) → ⬆️ upload → select your PDF
+Click 📁 folder icon (left sidebar) →  upload → select your PDF
 ```
 
 ### 4. Run cells in order
@@ -68,7 +68,7 @@ Cell 11 — Interactive Q&A loop
 
 ---
 
-## 📊 Hyperparameters
+##  Hyperparameters
 
 | Parameter | Value | What it controls |
 |---|---|---|
