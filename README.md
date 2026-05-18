@@ -1,4 +1,4 @@
-# 🧠 Simple RAG Pipeline — From Scratch
+#  Simple RAG Pipeline — From Scratch
 
 A clean, beginner-friendly Retrieval-Augmented Generation (RAG) pipeline built from scratch on Google Colab with a free T4 GPU.
 
@@ -14,7 +14,7 @@ PDF
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 rag_simple_fixed.ipynb   — main notebook (11 cells)
@@ -90,7 +90,7 @@ Cell 11 — Interactive Q&A loop
 
 ---
 
-## 🔍 How Retrieval Works
+##  How Retrieval Works
 
 ```python
 # 1. Embed the question into a 384-dim vector
@@ -109,7 +109,7 @@ Embeddings are L2-normalised before storing in FAISS. This means dot product = c
 
 ---
 
-## 🤖 How Generation Works
+##  How Generation Works
 
 Mistral uses the `[INST]` chat format:
 
@@ -131,7 +131,7 @@ Mistral then generates the answer **grounded in your PDF**, not from its trainin
 ---
 ---
 
-## 💡 Tips
+##  Tips
 
 - **After any kernel reset** always re-run Cells 1 → 2 → 3 before anything else
 - **Cell 8 takes 3–5 minutes** — Mistral-7B is downloading ~4GB (4-bit quantized)
@@ -141,9 +141,6 @@ Mistral then generates the answer **grounded in your PDF**, not from its trainin
 
 ---
 
-## 🗺️ What's Next — Adding LangGraph
-
-Once the simple pipeline works, LangGraph adds a stateful graph on top:
 
 ```
 START
@@ -166,7 +163,7 @@ Benefits over the simple pipeline:
 
 ---
 
-## 📚 References
+##  References
 
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762) — Vaswani et al. (2017)
 - [sentence-transformers](https://www.sbert.net/)
